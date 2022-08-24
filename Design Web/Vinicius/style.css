@@ -1,0 +1,45 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    text-align: center;
+}
+#id1{
+    width: 10px;
+    color: blue;
+}
+#id2{
+    width: 100px;
+    color: rgb(0, 255, 34);
+}
+#id3{
+    width: 200px;
+    color: rgb(255, 238, 0);
+    background-color: blue;
+}
+#id4{
+    width: 50px;
+    color: rgb(0, 247, 255);
+    background-color: brown
+}
+#id5{
+    width: 100px;
+    color: rgb(255, 81, 0);
+}
+#id6{
+    width: 300px;
+    color: rgb(136, 255, 0);
+}
+#vid1{
+    height: 100px;
+    width: 1000px;
+}
+#vid2{
+    height: 120px;
+    width: 32px;
+}
+form{
+    text-align: center;
+}
+

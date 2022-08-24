@@ -1,0 +1,24 @@
+Curso Web Design iniciado hoje 
+
+https://www.comparaonline.com.br/blog/carros/seguro-auto/perfil-completo-dos-10-carros-mais-vendidos-brasil/
+
+site de baixar pexels 
+
+
+
+
+
+_------____________________________________________________________________
+Repositório 
+
+No repositório do projeto tenho que fazer 
+
+1 -  Tela preta
+2 - Cor do texto branco 
+3 - Border-bottom no wrapper e depois começasse outro <p></p>
+4-  Cada projeto seria com hoover ou com um tipíco botão diferente 
+
+
+____________________________-------__________________________________________________
+
+
