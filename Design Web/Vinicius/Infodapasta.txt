@@ -21,4 +21,17 @@ No repositório do projeto tenho que fazer
 
 ____________________________-------__________________________________________________
 
+display: flex;
+Mudar c
 
+
+GRID: LINHAS;
+
+flex -> mais ou menos menu
+
+
+Position
+
+static estatica não vai mudar 
+fixed menu aparecer 
+absolute -> 

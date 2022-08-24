@@ -3,11 +3,17 @@ h1{
     font-family: sans-serif;
     font-size: 60px;
     bottom: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
 }
 
 .subtitulo{
     width: 400px;
+    position: relative;
+    top: 100px;
     height: 100px;
+    left: 100px;
     font-size: 12px;
     box-sizing: border-box;
 }
@@ -36,6 +42,8 @@ body{
     width: 396px;
 }
 
+
+
 ._6{
     padding-top: 10px;
     padding-bottom: 24px;
@@ -58,7 +66,7 @@ form{
 }
 
 .entrar{
-    color: white;
+    /*color: white;*/
     background-color: blue;
     width: 300px;
     height: 50px;
@@ -69,11 +77,26 @@ form{
 
 input{
     height: 50px;
-    width: 300px;
+    width: 380px;
+    left: 1%;
     font-size: 15px;
 }
 
-.criar{
+.criar a{
+    color: white;
+    background-color: yellowgreen;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    text-align: inherit;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 10px;
+    left: 40px;
+}
+
+.criar a:hover{
     color: white;
     background-color: green;
     width: 300px;
@@ -82,17 +105,21 @@ input{
     text-align: inherit;
     border: none;
     font-size: 20px;
-
+    position: absolute;
+    left: 40px;
 }
 
 .linha{
     border-bottom: 0.8px solid gray;
     border-radius: 20px;
+    width: 100%;
 }
 
 input[type=email], input[type=password]{
     border-radius: 5px;
     box-sizing: border-box;
+    position: relative;
+    justify-items: center;
 }
 
 p a{
@@ -100,16 +127,53 @@ p a{
     text-decoration: none;
 }
 
-button, .criar{
+button, .criar, .entrar{
     border-radius: 5px;
+}
+
+.entrar , .criar > a {
+    color: white;
 }
 
 p > a{
     color: black solid;
 }
 
+.esqueceu{
+    position: relative;
+}
+
+.entrar, .esqueceu, .criar{
+    left: 30%;
+}
+
 ._form{
     position: relative;
-    left: 1000px;
-    bottom: 200px;
+    left: 800px;
+    bottom: 125px;
+    align-items: center;
+    box-shadow: 3px solid #f1f1f1;
+    border-radius: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.pagina{
+    position: absolute; 
+    bottom: 0px;
+    left: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.esqueceu:hover, .esqueceu a:hover{
+    text-decoration: underline;
+    color: rgb(48, 48, 255);
+}
+
+.esqueceu .esqueceu a{
+    text-decoration: none;
+    color: rgb(48, 48, 255);
 }
