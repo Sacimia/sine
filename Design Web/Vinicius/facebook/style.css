@@ -21,6 +21,7 @@ h1{
 body{
     background-color: #dddfe2;
     line-height: 1.35;
+    direction: ltr;
     margin: 0;
     padding: 0;
     color: #1c1e21;
@@ -38,11 +39,13 @@ body{
 }
 
 .form2{
-    height: 398px;
+    height: 388px;
     width: 396px;
 }
 
-
+input:active{
+    border: blue 2px 1px ;
+}
 
 ._6{
     padding-top: 10px;
@@ -67,7 +70,17 @@ form{
 
 .entrar{
     /*color: white;*/
-    background-color: blue;
+    background-color: rgb(38, 107, 255);
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    font-size: larger;
+    border: none;
+}
+
+.entrar:hover{
+    /*color: white;*/
+    background-color: rgb(1, 79, 246);
     width: 300px;
     height: 50px;
     position: absolute;
@@ -79,12 +92,21 @@ input{
     height: 50px;
     width: 380px;
     left: 1%;
+    text-shadow: none;
+    letter-spacing: normal;
+    text-rendering: auto;
+    word-spacing: normal;
+    text-indent: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    border-color: initial lightdark(rgb(118, 118, 118), rgb(133, 133, 133));
     font-size: 15px;
 }
 
 .criar a{
     color: white;
-    background-color: yellowgreen;
+    background-color: rgb(118, 170, 14);
     width: 200px;
     height: 50px;
     text-decoration: none;
@@ -103,7 +125,7 @@ input{
 
 .criar a:hover{
     color: white;
-    background-color: green;
+    background-color: rgb(13, 142, 13);
     width: 200px;
     height: 50px;
     text-decoration: none;
@@ -121,13 +143,7 @@ input{
     width: 100%;
 }
 
-input[type=email], input[type=password]{
-    border-radius: 5px;
-    box-sizing: border-box;
-    position: relative;
-    justify-items: center;
-    border: #dddfe2 solid 1px;
-}
+
 
 p a{
     color: black;
@@ -182,6 +198,9 @@ p > a{
     font-size: 14px;
     left: 750px;
     bottom: 110px;
+    margin-top: 42px;
+    text-align: center;
+
 }
 
 .conta{
@@ -206,4 +225,8 @@ p > a{
 .formulario{
     position: relative;
     left: 100px;
+}
+
+p a:hover {
+    text-decoration: underline;
 }
