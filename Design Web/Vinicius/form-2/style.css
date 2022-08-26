@@ -49,10 +49,12 @@ image{
     border: 2px solid black;
     height: 300px;
     position: relative;
-    top: 40%;
+    left: 200px;
+    bottom: 500px;
     padding: 0;
     margin: 15px;
     background: rgb(203, 203, 203);
+
 }
 
 
@@ -111,7 +113,8 @@ footer{
     border: 2px solid black;
     height: 300px;
     position: relative;
-    top: 40%;
+    bottom: 500px;
+    left: 200px;
     padding: 0;
     margin: 15px;
     background: rgb(255, 1, 1);
