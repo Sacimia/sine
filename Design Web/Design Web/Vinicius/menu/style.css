@@ -1,0 +1,257 @@
+.container{
+    background-color:  #272729;
+    color: black;
+    width: 100%;
+    height: 30px;  
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none!important;
+    line-height: 1.48;
+    font-weight: 400;
+    color: #1d1d1f;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 106%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: -.022em ;
+    font-style: normal;
+
+}
+
+
+#nav-global{
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 44px;
+    height: 48px;
+    font-size: 17px;
+    z-index: 9999;
+    display: block;
+    user-select: none;
+}
+.menu{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    border: none;
+    min-width: 1024px;
+    font-synthesis: none;
+    direction: ltr;
+    text-size-adjust: 100%;
+}
+
+.menu li{
+    font-size: 14.5px;
+    color: rgb(187, 186, 187);
+    cursor: pointer;
+    font-style: normal;
+    align-items: center;
+    position: relative; 
+}
+
+
+.menu li:hover {
+    color: rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+div{
+    display: block;
+}
+
+.unicef{
+    display: block;
+    margin-block-start: 1 em;
+    margin-block-end: 1 em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.unit-wrapper{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    position: relative;
+    overflow: hidden;
+}
+
+
+@media only screen and(max-width: 1070px){
+    .unit-copy-wrapper >*.headline{
+    font-size: 48px;
+    line-height: 1.0;
+    font-weight: 600;
+    letter-spacing: -.002em; 
+    }
+}
+
+section{
+    box-sizing: inherit;
+}
+.unicef2{
+    width: 100%;
+    background-color: #1d1d1f;
+}
+
+.homepage-section{
+    justify-content: center;
+    align-items: center; 
+    padding: 50px 0;
+    flex-wrap: wrap;
+    justify-self: center;
+    position: relative;
+    display: block;
+}
+
+section#i13{
+    font-size: 40px;
+}
+
+.homepage-section{
+    width: 100%;
+    background-color: #ffffff;
+}
+.unicef{
+    width: 457px;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+#i13{
+    position: relative;
+    left: 0;
+    padding: 20px 0;
+    top: 0;
+    bottom: 100px;
+}
+.main{
+    font-size: 14px;
+    display: flex;
+    -webkit-box-pack: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main{
+    position: relative;
+    max-width: 2560px;
+    margin: 0  auto;
+    padding-top: auto;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+}
+
+h1, h2 ,h3 ,h4 ,h5 ,h6{
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+
+a{
+    color: #06e;
+    letter-spacing: inherit;
+}
+
+.logo-link:hover, .links-13>link:hover{
+    text-decoration: underline;
+}
+
+.large-hide{
+    display: none;
+}
+
+.unit-copy-wrapper > .headline{
+    font-size: 56px;
+    line-height: 1.08;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headline{
+    color: #1d1d1f;
+}
+
+.headline, .subhead, .cta{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    flex-shrink: 1;
+}
+
+.main .collection-module{
+    display: grid;
+    width: 100%s;
+    z-index: 42;
+}
+
+.main[data-module-template], .main[data-unit-id]{
+    position: relative;
+}
+
+body, input, textarea, select, button{
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main[data-module-template].collection-module[data-unit-id]{
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 0;
+    overflow: visible;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.main .section-content{
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.image-13{
+    width: 445px;
+    height: 302.5px;
+}
+
+.logo-link {
+    position: absolute;
+    left : 500px;
+    bottom: 10px;
+}
+
+
+/*
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+*
+*
+*/ 
+
+

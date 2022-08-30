@@ -1,0 +1,14 @@
+#globo-com{
+    color: rgb(17, 76, 254);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-list{
+    background-color: red;
+    height: 200px;/* Altura */
+    width: 100px; 
+}
+
+body{
+    background: yellow;
+}
+
