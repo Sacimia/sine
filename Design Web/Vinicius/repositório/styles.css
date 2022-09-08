@@ -74,13 +74,17 @@ li a:hover{
     cursor: pointer;
 }
 
-#triangulo{
-    border-top: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid rgb(243, 188, 188);
-}
-#triangulo:hover{
-    border-top: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 25px solid rgb(199, 199, 199);
+
+@media(min-width: 121px){
+    header{
+        width: auto;
+        height: auto;
+    }
+    .header-logo{
+
+    }
+    h2, .tinindo{
+        position: absolute;
+        left: 50%;
+    }
 }
